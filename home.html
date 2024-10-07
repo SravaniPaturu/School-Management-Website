@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="home.html"><img src="images/logonew.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#home" class="hover-underline">HOME</a></li>
+            <li><a href="#about" class="hover-underline">ABOUT</a></li>
+            <li><a href="#subjects" class="hover-underline">COURSES</a></li>
+            <li><a href="#teacher" class="hover-underline">CLUBS</a></li>
+            <li><a href="#blog" class="hover-underline">FOUNDATIONS</a></li>
+            <li><a href="#contact" class="hover-underline">CONTACT</a></li>
+            <li><a href="#login"><i class="fa-solid fa-user"></i>login</li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="icons">
+                <div id="login-btn" class="fas fa-user"></div>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+            <form action="" class="login-form">
+                <h3>login form</h3>
+                <input type="email" placeholder="enter your email" class="box">
+                <input type="password" placeholder="enter your password" class="box">
+                <div class="remember">
+                    <input type="checkbox" name="" id="remember">
+                    <label for="remember-me">remember me</label>
+                </div>
+                <a href="#" class="btn">
+                    <span class="text text-1">login now</span>
+                    <span class="text text-2" aria-hidden="true">login now</span>
+                </a>
+            </form>
+            <section class="headcontainer">
+                <div class="mydiv">
+                    <img src="images/muphoto.jpeg">
+                 </div>
+                <div class="text-box">
+                    <h3>Hello,</h3>
+                    <p>Welcome to<br>
+                   <span style="color: red; font-size: 40px;">J</span><span style="color: white;font-size: 40px;">P</span><span style="color: rgb(18, 58, 123);font-size: 40px;">R</span> EDUCATIONAL INSTITUTE<br> </p>
+                    <a href="#" class="btn">
+                       <span class="text text-1">learn more</span>
+                       <span class="text text-2" aria-hidden="true">learn more</span>
+                   </a>  
+                </div>
+            
+            </section>
+        </section>
+        <section class="aboutus">
+            
+            <div class="heading">
+                <h1>About us</h1>
+        <p> JPR EDUCATIONAL INSTITUTE </p>
+            </div>
+            <div class="container">
+                <section class="about">
+                    <div class="about-img">
+                        <img src="images/aboutus.jpg">
+                    </div>
+                    <div class="about-content">
+                        <h2>TO REAL-WORLD EDUCATION TO STUDENTS FROM ALL WALKS OF LIFE</h2>
+                <p> JPR EDUCATIONAL INSTITUTE has been providing outstanding education and support to students across India.
+                    We aim to provide best Education to students by providing Extra-ciricular activities along with finest education to bring a better and bright future to students.
+                </p>
+                <a href="" class="read-more">Read More</a>
+                    </div>
+                   
+                </section>
+            </div>
+        </section>
+        <section class="subjects">
+
+            <h1 class="heading">our popular courses</h1>
+    
+            <div class="box-container">
+    
+                <div class="box">
+                    <img src="images/icse.png" alt="">
+                    <h3>ICSE</h3>
+                    <a href="#" class="course-btn">Learn More</a>  
+                </div>
+    
+                <div class="box">
+                    <img src="images/ssc.webp" alt="">
+                    <h3>State</h3>
+                    <a href="#" class="course-btn">Learn More</a>
+                </div>
+    
+                <div class="box">
+                    <img src="images/cbse.jpg" alt="">
+                    <h3>CBSE</h3>
+                    <a href="#" class="course-btn">Learn More</a>
+                </div>
+    
+                <div class="box">
+                    <img src="images/arts.jpg" alt="">
+                    <h3>Arts and Science</h3>
+                    <a href="#" class="course-btn">Learn More</a>
+                </div>
+    
+            </div>
+    
+        </section>
+
+        <section class="clubs" id="clubs">
+            <div class="clubcontainer">
+                    <h2>services</h2>
+                    <p id="paragraph">xxxx</p>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="images/akriti.jpeg">
+                            <div class="content">
+                                <h3>Akriti</h3>
+                                <p>yyyyyy</p>
+                            </div>
+                        </div>
+                    
+                        <div class="card">
+                            <img src="images/dance.jpeg">
+                            <div class="content">
+                                <h3>Dance</h3>
+                                <p>yyyyyy</p>
+                            </div>
+                        </div>
+                   
+                        <div class="card">
+                            <img src="images/music1.jpeg">
+                            <div class="content">
+                                <h3>Music</h3>
+                                <p>yyyyyy</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+
+            <h1 class="heading">Our Foundation courses</h1>
+    
+            <div class="box-container">
+    
+                <div class="box">
+                    <div class="image shine">
+                        <img src="images/jee.jpg" alt="">
+                        <h3><i class="fas fa-star"></i></h3>
+                    </div>
+                    <div class="content">
+                        <h3>Be an Engineer and Innovate new things</h3>
+                        <p>Boost your preparation for JEE Main exam with Video E-Lectures, 5000+ Concepts Wise Videos,
+                             Mock Tests.</p>
+                        <a href="#" class="btn">
+                            <span class="text text-1">read more</span>
+                            <span class="text text-2" aria-hidden="true">read more</span>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <div class="image shine">
+                        <img src="images/neet.jpg" alt="">
+                        <h3><i class="fas fa-star"></i></h3>
+                    </div>
+                    <div class="content">
+                        <h3>Get Trained and be a successful Doctor</h3>
+                        <p>Brilliant Foundation Programme for neet gives training 
+                            of the best quality in science students.</p>
+                        <a href="#" class="btn">
+                            <span class="text text-1">read more</span>
+                            <span class="text text-2" aria-hidden="true">read more</span>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <div class="image shine">
+                        <img src="images/upsc.png" alt="">
+                        <h3><i class="fas fa-star"></i></h3>
+                    </div>
+                    <div class="content">
+                        <h3>Be a civil Servant and serve society</h3>
+                        <p>This course will provide candidates to build a strong foundation for the UPSC and other examinations.</p>
+                        <a href="#" class="btn">
+                            <span class="text text-1">read more</span>
+                            <span class="text text-2" aria-hidden="true">read more</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image shine">
+                        <img src="images/sports.jpg" alt="">
+                        <h3><i class="fas fa-star"></i></h3>
+                    </div>
+                    <div class="content">
+                        <h3>Be compete and shine nation</h3>
+                        <p>This is one of the best sports management courses to provide a comprehensive overview on sports.</p>
+                        <a href="#" class="btn">
+                            <span class="text text-1">read more</span>
+                            <span class="text text-2" aria-hidden="true">read more</span>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </section>
+        <section class="reachus">
+            <h1>Reach us for help</h1>
+            <div class="one">
+                <form action="" class="two">
+                    <div class="three">
+                        
+                        <h2>Get in touch</h2>
+                        <hr>
+    
+                    </div>
+                    <input type="text" name="name" placeholder="Your Name" class="four" required>
+                    <input type="email" name="email" placeholder="Your Email" class="four" required>
+                    <textarea rows="30" cols="50" name="message" placeholder="Your Message" class="four" required></textarea>
+                    <button type="submit">Submit</button>
+                 </form>
+            </div>
+
+        </section>
+
+        <section class="footer">
+
+            <div class="box-container">
+    
+                <div class="box">
+                    <h3>find us here</h3>
+                    <p>@jpr.........</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <h3>contact us</h3>
+                    <p>+91 7013980248</p>
+                    <a href="#" class="link">sravani@gmail.com</a>
+                </div>
+    
+                <div class="box">
+                    <h3>Address</h3>
+                    <p>JPR Educational Institute,Channasandhra <br>
+                    Banglore<br>
+                    Karnataka</p>
+                </div>
+    
+            </div>
+            <div class="credit">Thank you  <span>Grow Big, Shine Brighter </span></div>
+        </section>
+
+
+        <script>
+            var navLinks =document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
